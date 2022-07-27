@@ -1,0 +1,6 @@
+framework module Pods_YugiCards {
+  umbrella header "Pods-YugiCards-umbrella.h"
+
+  export *
+  module * { export * }
+}
