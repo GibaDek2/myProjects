@@ -17,7 +17,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         if let windowScene = scene as? UIWindowScene {
             let window = UIWindow(windowScene: windowScene)
             self.window = window
-            window.backgroundColor = .blue
+            window.backgroundColor = .white
             window.makeKeyAndVisible()
             let vc = ListCardsViewController()
             window.rootViewController = UINavigationController(rootViewController: vc)

@@ -16,6 +16,10 @@ class ControllerYugioh: NSObject {
     let myRequest = requestYugioh()
     var myYugiCards: YugiohCards?
     
+    var heightForRowAt: CGFloat {
+        return 150
+    }
+    
     var numberOfRows: Int {
         return myYugiCards?.data?.count ?? 0
     }
