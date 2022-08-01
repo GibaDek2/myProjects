@@ -13,15 +13,18 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
-     
-        if let windowScene = scene as? UIWindowScene {
-            let window = UIWindow(windowScene: windowScene)
-            self.window = window
-            window.backgroundColor = .white
-            window.makeKeyAndVisible()
+       
+        if let windowScene = scene as? UIWindowScene{
+            let myWindow = UIWindow(windowScene: windowScene)
+            self.window = myWindow
+            
+            myWindow.backgroundColor = .black
+            myWindow.makeKeyAndVisible()
+            
             let vc = ListCardsViewController()
-            window.rootViewController = UINavigationController(rootViewController: vc)
+            myWindow.rootViewController = UINavigationController(rootViewController: vc)
         }
+        
         guard let _ = (scene as? UIWindowScene) else { return }
     }
 

@@ -22,8 +22,11 @@ class CustomCellYugiCardsListTableViewCell: UITableViewCell {
     var myLabelCell: UILabel = {
         let myLabelCell = UILabel(frame: .zero)
         myLabelCell.textAlignment = .center
-        myLabelCell.textColor = .black
-        myLabelCell.font = .systemFont(ofSize: 15, weight: .bold)
+        myLabelCell.textColor = .white
+        myLabelCell.font = .systemFont(ofSize: 25, weight: .heavy)
+        myLabelCell.clipsToBounds = true
+        myLabelCell.backgroundColor = .black
+        myLabelCell.layer.cornerRadius = 15
         return myLabelCell
     }()
     
@@ -56,7 +59,7 @@ class CustomCellYugiCardsListTableViewCell: UITableViewCell {
         myLabelCell.snp.makeConstraints { make in
             make.top.equalTo(myImageCell.snp.bottom).offset(10)
             make.centerX.equalTo(myImageCell.snp.centerX)
-            make.width.equalTo(250)
+            make.width.equalTo(390)
             make.height.equalTo(30)
         }
     }
