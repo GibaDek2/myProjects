@@ -17,6 +17,7 @@
 		9464AD68289787CC006DBA44 /* MoviesSkyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9464AD67289787CC006DBA44 /* MoviesSkyTests.swift */; };
 		9464AD72289787CC006DBA44 /* MoviesSkyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9464AD71289787CC006DBA44 /* MoviesSkyUITests.swift */; };
 		9464AD74289787CC006DBA44 /* MoviesSkyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9464AD73289787CC006DBA44 /* MoviesSkyUITestsLaunchTests.swift */; };
+		9464AD86289789C4006DBA44 /* Movies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9464AD85289789C4006DBA44 /* Movies.swift */; };
 		FFF2382F1481D819DA4BE124 /* Pods_MoviesSkyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC442B12F6B0C5382FF6FDE0 /* Pods_MoviesSkyTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -56,6 +57,7 @@
 		9464AD6D289787CC006DBA44 /* MoviesSkyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoviesSkyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9464AD71289787CC006DBA44 /* MoviesSkyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesSkyUITests.swift; sourceTree = "<group>"; };
 		9464AD73289787CC006DBA44 /* MoviesSkyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesSkyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9464AD85289789C4006DBA44 /* Movies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movies.swift; sourceTree = "<group>"; };
 		AAB454E942A9934A0E814E40 /* Pods-MoviesSky.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoviesSky.debug.xcconfig"; path = "Target Support Files/Pods-MoviesSky/Pods-MoviesSky.debug.xcconfig"; sourceTree = "<group>"; };
 		C9FE8F6EC4636591FCD2DA01 /* Pods-MoviesSkyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoviesSkyTests.debug.xcconfig"; path = "Target Support Files/Pods-MoviesSkyTests/Pods-MoviesSkyTests.debug.xcconfig"; sourceTree = "<group>"; };
 		EC442B12F6B0C5382FF6FDE0 /* Pods_MoviesSkyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoviesSkyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -184,6 +186,7 @@
 		9464AD82289788ED006DBA44 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				9464AD85289789C4006DBA44 /* Movies.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -444,6 +447,7 @@
 			files = (
 				9464AD55289787CB006DBA44 /* MoviesListViewController.swift in Sources */,
 				9464AD51289787CB006DBA44 /* AppDelegate.swift in Sources */,
+				9464AD86289789C4006DBA44 /* Movies.swift in Sources */,
 				9464AD53289787CB006DBA44 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
