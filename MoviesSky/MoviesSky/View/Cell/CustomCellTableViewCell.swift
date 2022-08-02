@@ -26,6 +26,8 @@ class CustomCellTableViewCell: UITableViewCell {
         myLabelName.textAlignment = .center
         return myLabelName
     }()
+    
+    static var identifier: String = "CustomCellTableViewCell"
 
     override func awakeFromNib() {
         super.awakeFromNib()
