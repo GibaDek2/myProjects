@@ -18,7 +18,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
             let myWindow = UIWindow(windowScene: windowScene)
             self.window = myWindow
             
-            myWindow.backgroundColor = .cyan
+            myWindow.backgroundColor = .white
             myWindow.makeKeyAndVisible()
             
             let vc = MoviesListViewController()

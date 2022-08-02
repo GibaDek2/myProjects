@@ -8,7 +8,7 @@
 import UIKit
 
 class MoviesListController: NSObject {
-    let title = "Movies List"
+    let title = "Series and Movies List"
     let showAlertError = "Error"
     let showMessageError = "Request Error"
     let showOkButton = "OK"

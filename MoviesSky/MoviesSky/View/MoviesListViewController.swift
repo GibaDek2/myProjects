@@ -19,7 +19,11 @@ class MoviesListViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        self.title = controller.title
+        addElementView()
+        configElemenstConstraints()
+        setupTableView()
+        myRequest()
     }
     
     func addElementView() {
@@ -33,6 +37,51 @@ class MoviesListViewController: UIViewController {
             make.right.equalTo(0)
             make.bottom.equalTo(view.safeAreaLayoutGuide.snp.bottom)
         }
+    }
+    
+    func setupTableView() {
+        self.myTableViewMovies.delegate = self
+        self.myTableViewMovies.dataSource = self
+    }
+    
+    func reloadRequestData() {
+        self.myTableViewMovies.reloadData()
+    }
+    
+    func showAlertError() {
+        let alert = UIAlertController(title: controller.showAlertError, message: controller.showMessageError, preferredStyle: .alert)
+        let button = UIAlertAction(title: controller.showOkButton, style: .destructive, handler: nil)
+        alert.addAction(button)
+        self.present(alert, animated: true, completion: nil)
+    }
+    
+    func myRequest() {
+        controller.requestMoviesController { [weak self] success in
+            if success {
+                self?.reloadRequestData()
+            } else {
+                self?.showAlertError()
+            }
+        }
+    }
+}
+
+extension MoviesListViewController: UITableViewDataSource, UITableViewDelegate {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return controller.numberOfRowsInTableView
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        if let cell = tableView.dequeueReusableCell(withIdentifier: CustomCellTableViewCell.identifier, for: indexPath) as? CustomCellTableViewCell{
+            cell.setupCell(content: controller.getContentByIndex(indexPath: indexPath))
+            return cell
+        } else {
+            return UITableViewCell()
+        }
+    }
+    
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return controller.heightForRowAt
     }
 }
 
