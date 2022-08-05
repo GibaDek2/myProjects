@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		2CA17043B8C427F621439F5D /* Pods_MoviesSky_MoviesSkyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24D249FDA2D9257123FDDE74 /* Pods_MoviesSky_MoviesSkyUITests.framework */; };
 		35642927067DD22832250DCD /* Pods_MoviesSky.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A76D373D5EA3B46A771DD46 /* Pods_MoviesSky.framework */; };
+		94444057289D558A00C2F605 /* MoviesDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94444056289D558A00C2F605 /* MoviesDetailController.swift */; };
 		945CF3642898AFF600590833 /* MoviesListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 945CF3632898AFF600590833 /* MoviesListController.swift */; };
 		945CF3672898BFF000590833 /* CustomCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 945CF3662898BFF000590833 /* CustomCellTableViewCell.swift */; };
 		9464AD51289787CB006DBA44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9464AD50289787CB006DBA44 /* AppDelegate.swift */; };
@@ -48,6 +49,7 @@
 		570405F58E2E29D933DE834A /* Pods-MoviesSky-MoviesSkyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoviesSky-MoviesSkyUITests.debug.xcconfig"; path = "Target Support Files/Pods-MoviesSky-MoviesSkyUITests/Pods-MoviesSky-MoviesSkyUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		5A76D373D5EA3B46A771DD46 /* Pods_MoviesSky.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoviesSky.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BD7CED5D880C2311E8A5759 /* Pods-MoviesSkyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoviesSkyTests.release.xcconfig"; path = "Target Support Files/Pods-MoviesSkyTests/Pods-MoviesSkyTests.release.xcconfig"; sourceTree = "<group>"; };
+		94444056289D558A00C2F605 /* MoviesDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesDetailController.swift; sourceTree = "<group>"; };
 		945CF3632898AFF600590833 /* MoviesListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesListController.swift; sourceTree = "<group>"; };
 		945CF3662898BFF000590833 /* CustomCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCellTableViewCell.swift; sourceTree = "<group>"; };
 		9464AD4D289787CB006DBA44 /* MoviesSky.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoviesSky.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -186,6 +188,7 @@
 			isa = PBXGroup;
 			children = (
 				945CF3632898AFF600590833 /* MoviesListController.swift */,
+				94444056289D558A00C2F605 /* MoviesDetailController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -463,6 +466,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9464AD8828978A57006DBA44 /* RequestMovies.swift in Sources */,
+				94444057289D558A00C2F605 /* MoviesDetailController.swift in Sources */,
 				9464AD55289787CB006DBA44 /* MoviesListViewController.swift in Sources */,
 				9464AD51289787CB006DBA44 /* AppDelegate.swift in Sources */,
 				945CF3672898BFF000590833 /* CustomCellTableViewCell.swift in Sources */,
