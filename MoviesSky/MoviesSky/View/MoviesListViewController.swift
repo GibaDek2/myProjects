@@ -83,5 +83,12 @@ extension MoviesListViewController: UITableViewDataSource, UITableViewDelegate {
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return controller.heightForRowAt
     }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
+        let detailScreen = MoviesDetailViewController()
+        detailScreen.controller.setSelectedMovie(content: controller.getContentByIndex(indexPath: indexPath))
+        self.navigationController?.pushViewController(detailScreen, animated: true)
+    }
 }
 
