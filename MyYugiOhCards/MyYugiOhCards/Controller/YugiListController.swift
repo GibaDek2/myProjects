@@ -16,7 +16,7 @@ class YugiListController: NSObject {
     var myYugi: YugiCards?
     
     var heightForRowAt: CGFloat {
-        return 250
+        return 280
     }
     
     var numberOfRowsInTableView: Int {

@@ -186,8 +186,8 @@
 		944A02EC28A4085C00B15EB2 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				944A031C28A40ED200B15EB2 /* Cell */,
 				944A02BF28A407A100B15EB2 /* CardsListViewController.swift */,
+				944A031C28A40ED200B15EB2 /* Cell */,
 			);
 			path = View;
 			sourceTree = "<group>";

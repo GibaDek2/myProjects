@@ -1,30 +1,26 @@
-//
-//  CustomCellCardsTableViewCell.swift
-//  MyYugiOhCards
-//
-//  Created by Gilberto Amaro on 10/08/22.
-//
-
 import UIKit
-import SnapKit
 import SDWebImage
+import SnapKit
 
 class CustomCellCardsTableViewCell: UITableViewCell {
     
-    var myCardImage: UIImageView = {
-        let myCardImage = UIImageView(frame: .zero)
-        myCardImage.contentMode = .scaleAspectFit
-        myCardImage.layer.masksToBounds = true
-        myCardImage.layer.cornerRadius = 25
-        return myCardImage
+    var myImageCell: UIImageView = {
+        let myImageCell = UIImageView(frame: .zero)
+        myImageCell.contentMode = .scaleAspectFit
+        myImageCell.layer.cornerRadius = 0
+        myImageCell.layer.masksToBounds = true
+        return myImageCell
     }()
     
-    var myCardLabel: UILabel = {
-        let myCardLabel = UILabel(frame: .zero)
-        myCardLabel.textAlignment = .center
-        myCardLabel.font = .systemFont(ofSize: 30, weight: .bold)
-        myCardLabel.textColor = .black
-        return myCardLabel
+    var myLabelCell: UILabel = {
+        let myLabelCell = UILabel(frame: .zero)
+        myLabelCell.textAlignment = .center
+        myLabelCell.textColor = .white
+        myLabelCell.font = .systemFont(ofSize: 25, weight: .heavy)
+        myLabelCell.clipsToBounds = true
+        myLabelCell.backgroundColor = .black
+        myLabelCell.layer.cornerRadius = 15
+        return myLabelCell
     }()
     
     static var myIdentifier: String = "CustomCellCardsTableViewCell"
@@ -36,34 +32,34 @@ class CustomCellCardsTableViewCell: UITableViewCell {
     
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
-        addElementsView()
-        addElementsConstraints()
+        addElementsViews()
+        configConstraintsViews()
     }
     
-    func addElementsView() {
-        contentView.addSubview(myCardImage)
-        contentView.addSubview(myCardLabel)
+    func addElementsViews() {
+        contentView.addSubview(myImageCell)
+        contentView.addSubview(myLabelCell)
     }
     
-    func addElementsConstraints() {
-        myCardImage.snp.makeConstraints { make in
-            make.top.equalToSuperview().offset(20)
+    func configConstraintsViews() {
+        myImageCell.snp.makeConstraints { make in
+            make.top.equalToSuperview().offset(10)
             make.centerX.equalToSuperview()
             make.width.equalTo(150)
             make.height.equalTo(200)
         }
         
-        myCardLabel.snp.makeConstraints { make in
-            make.top.equalTo(myCardImage.snp.bottom).offset(10)
-            make.centerX.equalTo(myCardImage.snp.centerX)
-            make.width.equalTo(300)
-            make.height.equalTo(40)
+        myLabelCell.snp.makeConstraints { make in
+            make.top.equalTo(myImageCell.snp.bottom).offset(10)
+            make.centerX.equalTo(myImageCell.snp.centerX)
+            make.width.equalTo(390)
+            make.height.equalTo(30)
         }
     }
     
     func setupCell(datum: Datum?) {
-        let imageUrl = URL(string: datum?.cardImages?.first?.imageURL ?? "")
-        myCardImage.sd_setImage(with: imageUrl, completed: nil)
-        myCardLabel.text = datum?.name ?? ""
+        let url = URL(string: datum?.cardImages?.first?.imageURL ?? "")
+        myImageCell.sd_setImage(with: url, completed: nil)
+        myLabelCell.text = datum?.name ?? ""
     }
 }
