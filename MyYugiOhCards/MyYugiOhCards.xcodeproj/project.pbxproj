@@ -18,6 +18,19 @@
 		944A02DD28A407A200B15EB2 /* MyYugiOhCardsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944A02DC28A407A200B15EB2 /* MyYugiOhCardsUITests.swift */; };
 		944A02DF28A407A200B15EB2 /* MyYugiOhCardsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944A02DE28A407A200B15EB2 /* MyYugiOhCardsUITestsLaunchTests.swift */; };
 		944A02F128A408E700B15EB2 /* YugiCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944A02F028A408E700B15EB2 /* YugiCards.swift */; };
+		944A030128A40A6700B15EB2 /* TypeEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944A030028A40A6700B15EB2 /* TypeEnum.swift */; };
+		944A030328A40A8300B15EB2 /* Race.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944A030228A40A8300B15EB2 /* Race.swift */; };
+		944A030528A40A9900B15EB2 /* Linkmarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944A030428A40A9900B15EB2 /* Linkmarker.swift */; };
+		944A030728A40AB800B15EB2 /* SetRarityCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944A030628A40AB800B15EB2 /* SetRarityCode.swift */; };
+		944A030928A40ADB00B15EB2 /* SetRarity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944A030828A40ADB00B15EB2 /* SetRarity.swift */; };
+		944A030B28A40AF000B15EB2 /* CardSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944A030A28A40AF000B15EB2 /* CardSet.swift */; };
+		944A030D28A40B0A00B15EB2 /* CardPrice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944A030C28A40B0A00B15EB2 /* CardPrice.swift */; };
+		944A030F28A40B2400B15EB2 /* CardImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944A030E28A40B2400B15EB2 /* CardImage.swift */; };
+		944A031128A40B3B00B15EB2 /* Ban.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944A031028A40B3B00B15EB2 /* Ban.swift */; };
+		944A031328A40B4D00B15EB2 /* BanListInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944A031228A40B4D00B15EB2 /* BanListInfo.swift */; };
+		944A031528A40B5F00B15EB2 /* Attribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944A031428A40B5F00B15EB2 /* Attribute.swift */; };
+		944A031728A40B7800B15EB2 /* Datum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944A031628A40B7800B15EB2 /* Datum.swift */; };
+		944A031928A40BAB00B15EB2 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944A031828A40BAB00B15EB2 /* Request.swift */; };
 		BEC3806B18A30EC0D863921D /* Pods_MyYugiOhCards_MyYugiOhCardsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70F71ACE34AE7158A8AD72F2 /* Pods_MyYugiOhCards_MyYugiOhCardsUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -56,6 +69,19 @@
 		944A02DC28A407A200B15EB2 /* MyYugiOhCardsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyYugiOhCardsUITests.swift; sourceTree = "<group>"; };
 		944A02DE28A407A200B15EB2 /* MyYugiOhCardsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyYugiOhCardsUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		944A02F028A408E700B15EB2 /* YugiCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YugiCards.swift; sourceTree = "<group>"; };
+		944A030028A40A6700B15EB2 /* TypeEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeEnum.swift; sourceTree = "<group>"; };
+		944A030228A40A8300B15EB2 /* Race.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Race.swift; sourceTree = "<group>"; };
+		944A030428A40A9900B15EB2 /* Linkmarker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Linkmarker.swift; sourceTree = "<group>"; };
+		944A030628A40AB800B15EB2 /* SetRarityCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetRarityCode.swift; sourceTree = "<group>"; };
+		944A030828A40ADB00B15EB2 /* SetRarity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetRarity.swift; sourceTree = "<group>"; };
+		944A030A28A40AF000B15EB2 /* CardSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardSet.swift; sourceTree = "<group>"; };
+		944A030C28A40B0A00B15EB2 /* CardPrice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardPrice.swift; sourceTree = "<group>"; };
+		944A030E28A40B2400B15EB2 /* CardImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardImage.swift; sourceTree = "<group>"; };
+		944A031028A40B3B00B15EB2 /* Ban.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ban.swift; sourceTree = "<group>"; };
+		944A031228A40B4D00B15EB2 /* BanListInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BanListInfo.swift; sourceTree = "<group>"; };
+		944A031428A40B5F00B15EB2 /* Attribute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Attribute.swift; sourceTree = "<group>"; };
+		944A031628A40B7800B15EB2 /* Datum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Datum.swift; sourceTree = "<group>"; };
+		944A031828A40BAB00B15EB2 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
 		9D5EB27949A73114D762D823 /* Pods-MyYugiOhCards-MyYugiOhCardsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyYugiOhCards-MyYugiOhCardsUITests.release.xcconfig"; path = "Target Support Files/Pods-MyYugiOhCards-MyYugiOhCardsUITests/Pods-MyYugiOhCards-MyYugiOhCardsUITests.release.xcconfig"; sourceTree = "<group>"; };
 		A1FBFEAB3EB5B27846756823 /* Pods-MyYugiOhCardsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyYugiOhCardsTests.debug.xcconfig"; path = "Target Support Files/Pods-MyYugiOhCardsTests/Pods-MyYugiOhCardsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		CEA456821F1E0EFAFDD68118 /* Pods_MyYugiOhCards.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyYugiOhCards.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -164,6 +190,18 @@
 			isa = PBXGroup;
 			children = (
 				944A02F028A408E700B15EB2 /* YugiCards.swift */,
+				944A031628A40B7800B15EB2 /* Datum.swift */,
+				944A030028A40A6700B15EB2 /* TypeEnum.swift */,
+				944A030228A40A8300B15EB2 /* Race.swift */,
+				944A030428A40A9900B15EB2 /* Linkmarker.swift */,
+				944A030628A40AB800B15EB2 /* SetRarityCode.swift */,
+				944A030828A40ADB00B15EB2 /* SetRarity.swift */,
+				944A030A28A40AF000B15EB2 /* CardSet.swift */,
+				944A030C28A40B0A00B15EB2 /* CardPrice.swift */,
+				944A030E28A40B2400B15EB2 /* CardImage.swift */,
+				944A031028A40B3B00B15EB2 /* Ban.swift */,
+				944A031228A40B4D00B15EB2 /* BanListInfo.swift */,
+				944A031428A40B5F00B15EB2 /* Attribute.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -180,6 +218,7 @@
 		944A02EF28A4086300B15EB2 /* Request */ = {
 			isa = PBXGroup;
 			children = (
+				944A031828A40BAB00B15EB2 /* Request.swift */,
 			);
 			path = Request;
 			sourceTree = "<group>";
@@ -445,9 +484,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				944A031528A40B5F00B15EB2 /* Attribute.swift in Sources */,
+				944A031728A40B7800B15EB2 /* Datum.swift in Sources */,
+				944A030728A40AB800B15EB2 /* SetRarityCode.swift in Sources */,
 				944A02C028A407A100B15EB2 /* CardsListViewController.swift in Sources */,
+				944A031128A40B3B00B15EB2 /* Ban.swift in Sources */,
+				944A030928A40ADB00B15EB2 /* SetRarity.swift in Sources */,
+				944A030F28A40B2400B15EB2 /* CardImage.swift in Sources */,
+				944A031928A40BAB00B15EB2 /* Request.swift in Sources */,
+				944A031328A40B4D00B15EB2 /* BanListInfo.swift in Sources */,
 				944A02F128A408E700B15EB2 /* YugiCards.swift in Sources */,
 				944A02BC28A407A100B15EB2 /* AppDelegate.swift in Sources */,
+				944A030D28A40B0A00B15EB2 /* CardPrice.swift in Sources */,
+				944A030128A40A6700B15EB2 /* TypeEnum.swift in Sources */,
+				944A030B28A40AF000B15EB2 /* CardSet.swift in Sources */,
+				944A030528A40A9900B15EB2 /* Linkmarker.swift in Sources */,
+				944A030328A40A8300B15EB2 /* Race.swift in Sources */,
 				944A02BE28A407A100B15EB2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
