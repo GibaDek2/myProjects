@@ -11,13 +11,13 @@
 		79180AE87032150FC47F20D8 /* Pods_MyYugiOhCards.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEA456821F1E0EFAFDD68118 /* Pods_MyYugiOhCards.framework */; };
 		944A02BC28A407A100B15EB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944A02BB28A407A100B15EB2 /* AppDelegate.swift */; };
 		944A02BE28A407A100B15EB2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944A02BD28A407A100B15EB2 /* SceneDelegate.swift */; };
-		944A02C028A407A100B15EB2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944A02BF28A407A100B15EB2 /* ViewController.swift */; };
-		944A02C328A407A100B15EB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 944A02C128A407A100B15EB2 /* Main.storyboard */; };
+		944A02C028A407A100B15EB2 /* CardsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944A02BF28A407A100B15EB2 /* CardsListViewController.swift */; };
 		944A02C528A407A200B15EB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 944A02C428A407A200B15EB2 /* Assets.xcassets */; };
 		944A02C828A407A200B15EB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 944A02C628A407A200B15EB2 /* LaunchScreen.storyboard */; };
 		944A02D328A407A200B15EB2 /* MyYugiOhCardsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944A02D228A407A200B15EB2 /* MyYugiOhCardsTests.swift */; };
 		944A02DD28A407A200B15EB2 /* MyYugiOhCardsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944A02DC28A407A200B15EB2 /* MyYugiOhCardsUITests.swift */; };
 		944A02DF28A407A200B15EB2 /* MyYugiOhCardsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944A02DE28A407A200B15EB2 /* MyYugiOhCardsUITestsLaunchTests.swift */; };
+		944A02F128A408E700B15EB2 /* YugiCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944A02F028A408E700B15EB2 /* YugiCards.swift */; };
 		BEC3806B18A30EC0D863921D /* Pods_MyYugiOhCards_MyYugiOhCardsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70F71ACE34AE7158A8AD72F2 /* Pods_MyYugiOhCards_MyYugiOhCardsUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -46,8 +46,7 @@
 		944A02B828A407A100B15EB2 /* MyYugiOhCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyYugiOhCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		944A02BB28A407A100B15EB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		944A02BD28A407A100B15EB2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		944A02BF28A407A100B15EB2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		944A02C228A407A100B15EB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		944A02BF28A407A100B15EB2 /* CardsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsListViewController.swift; sourceTree = "<group>"; };
 		944A02C428A407A200B15EB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		944A02C728A407A200B15EB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		944A02C928A407A200B15EB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -56,6 +55,7 @@
 		944A02D828A407A200B15EB2 /* MyYugiOhCardsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyYugiOhCardsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		944A02DC28A407A200B15EB2 /* MyYugiOhCardsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyYugiOhCardsUITests.swift; sourceTree = "<group>"; };
 		944A02DE28A407A200B15EB2 /* MyYugiOhCardsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyYugiOhCardsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		944A02F028A408E700B15EB2 /* YugiCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YugiCards.swift; sourceTree = "<group>"; };
 		9D5EB27949A73114D762D823 /* Pods-MyYugiOhCards-MyYugiOhCardsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyYugiOhCards-MyYugiOhCardsUITests.release.xcconfig"; path = "Target Support Files/Pods-MyYugiOhCards-MyYugiOhCardsUITests/Pods-MyYugiOhCards-MyYugiOhCardsUITests.release.xcconfig"; sourceTree = "<group>"; };
 		A1FBFEAB3EB5B27846756823 /* Pods-MyYugiOhCardsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyYugiOhCardsTests.debug.xcconfig"; path = "Target Support Files/Pods-MyYugiOhCardsTests/Pods-MyYugiOhCardsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		CEA456821F1E0EFAFDD68118 /* Pods_MyYugiOhCards.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyYugiOhCards.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -116,12 +116,13 @@
 		944A02BA28A407A100B15EB2 /* MyYugiOhCards */ = {
 			isa = PBXGroup;
 			children = (
+				944A02EF28A4086300B15EB2 /* Request */,
+				944A02EE28A4086100B15EB2 /* Resources */,
+				944A02ED28A4085F00B15EB2 /* Model */,
+				944A02EC28A4085C00B15EB2 /* View */,
+				944A02EB28A4085800B15EB2 /* Controller */,
 				944A02BB28A407A100B15EB2 /* AppDelegate.swift */,
 				944A02BD28A407A100B15EB2 /* SceneDelegate.swift */,
-				944A02BF28A407A100B15EB2 /* ViewController.swift */,
-				944A02C128A407A100B15EB2 /* Main.storyboard */,
-				944A02C428A407A200B15EB2 /* Assets.xcassets */,
-				944A02C628A407A200B15EB2 /* LaunchScreen.storyboard */,
 				944A02C928A407A200B15EB2 /* Info.plist */,
 			);
 			path = MyYugiOhCards;
@@ -144,6 +145,45 @@
 			path = MyYugiOhCardsUITests;
 			sourceTree = "<group>";
 		};
+		944A02EB28A4085800B15EB2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		944A02EC28A4085C00B15EB2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				944A02BF28A407A100B15EB2 /* CardsListViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		944A02ED28A4085F00B15EB2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				944A02F028A408E700B15EB2 /* YugiCards.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		944A02EE28A4086100B15EB2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				944A02C428A407A200B15EB2 /* Assets.xcassets */,
+				944A02C628A407A200B15EB2 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		944A02EF28A4086300B15EB2 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
 		9FEDFB80BEF151DBCAC4CD4F /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -154,7 +194,6 @@
 				A1FBFEAB3EB5B27846756823 /* Pods-MyYugiOhCardsTests.debug.xcconfig */,
 				88636D5827149C5B66D1F253 /* Pods-MyYugiOhCardsTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -279,7 +318,6 @@
 			files = (
 				944A02C828A407A200B15EB2 /* LaunchScreen.storyboard in Resources */,
 				944A02C528A407A200B15EB2 /* Assets.xcassets in Resources */,
-				944A02C328A407A100B15EB2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,7 +445,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				944A02C028A407A100B15EB2 /* ViewController.swift in Sources */,
+				944A02C028A407A100B15EB2 /* CardsListViewController.swift in Sources */,
+				944A02F128A408E700B15EB2 /* YugiCards.swift in Sources */,
 				944A02BC28A407A100B15EB2 /* AppDelegate.swift in Sources */,
 				944A02BE28A407A100B15EB2 /* SceneDelegate.swift in Sources */,
 			);
@@ -446,14 +485,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		944A02C128A407A100B15EB2 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				944A02C228A407A100B15EB2 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		944A02C628A407A200B15EB2 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -591,7 +622,6 @@
 				INFOPLIST_FILE = MyYugiOhCards/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -619,7 +649,6 @@
 				INFOPLIST_FILE = MyYugiOhCards/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
