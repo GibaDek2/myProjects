@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5871818100AD6DA3BBA80843 /* Pods_MyYugiOhCardsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FABB92547CCF4C6654AAAC18 /* Pods_MyYugiOhCardsTests.framework */; };
+		79180AE87032150FC47F20D8 /* Pods_MyYugiOhCards.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEA456821F1E0EFAFDD68118 /* Pods_MyYugiOhCards.framework */; };
 		944A02BC28A407A100B15EB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944A02BB28A407A100B15EB2 /* AppDelegate.swift */; };
 		944A02BE28A407A100B15EB2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944A02BD28A407A100B15EB2 /* SceneDelegate.swift */; };
 		944A02C028A407A100B15EB2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944A02BF28A407A100B15EB2 /* ViewController.swift */; };
@@ -16,6 +18,7 @@
 		944A02D328A407A200B15EB2 /* MyYugiOhCardsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944A02D228A407A200B15EB2 /* MyYugiOhCardsTests.swift */; };
 		944A02DD28A407A200B15EB2 /* MyYugiOhCardsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944A02DC28A407A200B15EB2 /* MyYugiOhCardsUITests.swift */; };
 		944A02DF28A407A200B15EB2 /* MyYugiOhCardsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944A02DE28A407A200B15EB2 /* MyYugiOhCardsUITestsLaunchTests.swift */; };
+		BEC3806B18A30EC0D863921D /* Pods_MyYugiOhCards_MyYugiOhCardsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70F71ACE34AE7158A8AD72F2 /* Pods_MyYugiOhCards_MyYugiOhCardsUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4516F5A912B2E287C0BA7E0F /* Pods-MyYugiOhCards.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyYugiOhCards.debug.xcconfig"; path = "Target Support Files/Pods-MyYugiOhCards/Pods-MyYugiOhCards.debug.xcconfig"; sourceTree = "<group>"; };
+		58FA73B4F1561E3F9183638E /* Pods-MyYugiOhCards-MyYugiOhCardsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyYugiOhCards-MyYugiOhCardsUITests.debug.xcconfig"; path = "Target Support Files/Pods-MyYugiOhCards-MyYugiOhCardsUITests/Pods-MyYugiOhCards-MyYugiOhCardsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		70F71ACE34AE7158A8AD72F2 /* Pods_MyYugiOhCards_MyYugiOhCardsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyYugiOhCards_MyYugiOhCardsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88636D5827149C5B66D1F253 /* Pods-MyYugiOhCardsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyYugiOhCardsTests.release.xcconfig"; path = "Target Support Files/Pods-MyYugiOhCardsTests/Pods-MyYugiOhCardsTests.release.xcconfig"; sourceTree = "<group>"; };
 		944A02B828A407A100B15EB2 /* MyYugiOhCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyYugiOhCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		944A02BB28A407A100B15EB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		944A02BD28A407A100B15EB2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +56,11 @@
 		944A02D828A407A200B15EB2 /* MyYugiOhCardsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyYugiOhCardsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		944A02DC28A407A200B15EB2 /* MyYugiOhCardsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyYugiOhCardsUITests.swift; sourceTree = "<group>"; };
 		944A02DE28A407A200B15EB2 /* MyYugiOhCardsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyYugiOhCardsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9D5EB27949A73114D762D823 /* Pods-MyYugiOhCards-MyYugiOhCardsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyYugiOhCards-MyYugiOhCardsUITests.release.xcconfig"; path = "Target Support Files/Pods-MyYugiOhCards-MyYugiOhCardsUITests/Pods-MyYugiOhCards-MyYugiOhCardsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A1FBFEAB3EB5B27846756823 /* Pods-MyYugiOhCardsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyYugiOhCardsTests.debug.xcconfig"; path = "Target Support Files/Pods-MyYugiOhCardsTests/Pods-MyYugiOhCardsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CEA456821F1E0EFAFDD68118 /* Pods_MyYugiOhCards.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyYugiOhCards.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6A8E67D1DD95943792E5EAA /* Pods-MyYugiOhCards.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyYugiOhCards.release.xcconfig"; path = "Target Support Files/Pods-MyYugiOhCards/Pods-MyYugiOhCards.release.xcconfig"; sourceTree = "<group>"; };
+		FABB92547CCF4C6654AAAC18 /* Pods_MyYugiOhCardsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyYugiOhCardsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79180AE87032150FC47F20D8 /* Pods_MyYugiOhCards.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5871818100AD6DA3BBA80843 /* Pods_MyYugiOhCardsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEC3806B18A30EC0D863921D /* Pods_MyYugiOhCards_MyYugiOhCardsUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +98,8 @@
 				944A02D128A407A200B15EB2 /* MyYugiOhCardsTests */,
 				944A02DB28A407A200B15EB2 /* MyYugiOhCardsUITests */,
 				944A02B928A407A100B15EB2 /* Products */,
+				9FEDFB80BEF151DBCAC4CD4F /* Pods */,
+				BCA4998938A71C6673E9FD6B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -127,6 +144,30 @@
 			path = MyYugiOhCardsUITests;
 			sourceTree = "<group>";
 		};
+		9FEDFB80BEF151DBCAC4CD4F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4516F5A912B2E287C0BA7E0F /* Pods-MyYugiOhCards.debug.xcconfig */,
+				D6A8E67D1DD95943792E5EAA /* Pods-MyYugiOhCards.release.xcconfig */,
+				58FA73B4F1561E3F9183638E /* Pods-MyYugiOhCards-MyYugiOhCardsUITests.debug.xcconfig */,
+				9D5EB27949A73114D762D823 /* Pods-MyYugiOhCards-MyYugiOhCardsUITests.release.xcconfig */,
+				A1FBFEAB3EB5B27846756823 /* Pods-MyYugiOhCardsTests.debug.xcconfig */,
+				88636D5827149C5B66D1F253 /* Pods-MyYugiOhCardsTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BCA4998938A71C6673E9FD6B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEA456821F1E0EFAFDD68118 /* Pods_MyYugiOhCards.framework */,
+				70F71ACE34AE7158A8AD72F2 /* Pods_MyYugiOhCards_MyYugiOhCardsUITests.framework */,
+				FABB92547CCF4C6654AAAC18 /* Pods_MyYugiOhCardsTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +175,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 944A02E228A407A200B15EB2 /* Build configuration list for PBXNativeTarget "MyYugiOhCards" */;
 			buildPhases = (
+				403B99F33212B98511E24DCA /* [CP] Check Pods Manifest.lock */,
 				944A02B428A407A100B15EB2 /* Sources */,
 				944A02B528A407A100B15EB2 /* Frameworks */,
 				944A02B628A407A100B15EB2 /* Resources */,
+				45DF72483B708CDC24ADB245 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +194,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 944A02E528A407A200B15EB2 /* Build configuration list for PBXNativeTarget "MyYugiOhCardsTests" */;
 			buildPhases = (
+				AEF715BF59DB57D306415C91 /* [CP] Check Pods Manifest.lock */,
 				944A02CA28A407A200B15EB2 /* Sources */,
 				944A02CB28A407A200B15EB2 /* Frameworks */,
 				944A02CC28A407A200B15EB2 /* Resources */,
@@ -169,9 +213,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 944A02E828A407A200B15EB2 /* Build configuration list for PBXNativeTarget "MyYugiOhCardsUITests" */;
 			buildPhases = (
+				BB989C04F4687C043FAC4CA0 /* [CP] Check Pods Manifest.lock */,
 				944A02D428A407A200B15EB2 /* Sources */,
 				944A02D528A407A200B15EB2 /* Frameworks */,
 				944A02D628A407A200B15EB2 /* Resources */,
+				DBE76D13C3E6545425E15B7E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -252,6 +298,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		403B99F33212B98511E24DCA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyYugiOhCards-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		45DF72483B708CDC24ADB245 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyYugiOhCards/Pods-MyYugiOhCards-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyYugiOhCards/Pods-MyYugiOhCards-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyYugiOhCards/Pods-MyYugiOhCards-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AEF715BF59DB57D306415C91 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyYugiOhCardsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB989C04F4687C043FAC4CA0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyYugiOhCards-MyYugiOhCardsUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBE76D13C3E6545425E15B7E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyYugiOhCards-MyYugiOhCardsUITests/Pods-MyYugiOhCards-MyYugiOhCardsUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyYugiOhCards-MyYugiOhCardsUITests/Pods-MyYugiOhCards-MyYugiOhCardsUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyYugiOhCards-MyYugiOhCardsUITests/Pods-MyYugiOhCards-MyYugiOhCardsUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		944A02B428A407A100B15EB2 /* Sources */ = {
@@ -432,6 +581,7 @@
 		};
 		944A02E328A407A200B15EB2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4516F5A912B2E287C0BA7E0F /* Pods-MyYugiOhCards.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -459,6 +609,7 @@
 		};
 		944A02E428A407A200B15EB2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6A8E67D1DD95943792E5EAA /* Pods-MyYugiOhCards.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -486,6 +637,7 @@
 		};
 		944A02E628A407A200B15EB2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1FBFEAB3EB5B27846756823 /* Pods-MyYugiOhCardsTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -505,6 +657,7 @@
 		};
 		944A02E728A407A200B15EB2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88636D5827149C5B66D1F253 /* Pods-MyYugiOhCardsTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -524,6 +677,7 @@
 		};
 		944A02E928A407A200B15EB2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58FA73B4F1561E3F9183638E /* Pods-MyYugiOhCards-MyYugiOhCardsUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -541,6 +695,7 @@
 		};
 		944A02EA28A407A200B15EB2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D5EB27949A73114D762D823 /* Pods-MyYugiOhCards-MyYugiOhCardsUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

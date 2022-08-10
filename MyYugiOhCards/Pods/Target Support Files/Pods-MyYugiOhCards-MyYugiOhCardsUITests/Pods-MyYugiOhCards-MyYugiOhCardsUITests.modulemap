@@ -1,0 +1,6 @@
+framework module Pods_MyYugiOhCards_MyYugiOhCardsUITests {
+  umbrella header "Pods-MyYugiOhCards-MyYugiOhCardsUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
