@@ -31,6 +31,7 @@
 		944A031528A40B5F00B15EB2 /* Attribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944A031428A40B5F00B15EB2 /* Attribute.swift */; };
 		944A031728A40B7800B15EB2 /* Datum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944A031628A40B7800B15EB2 /* Datum.swift */; };
 		944A031928A40BAB00B15EB2 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944A031828A40BAB00B15EB2 /* Request.swift */; };
+		944A031B28A40D4E00B15EB2 /* YugiListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944A031A28A40D4E00B15EB2 /* YugiListController.swift */; };
 		BEC3806B18A30EC0D863921D /* Pods_MyYugiOhCards_MyYugiOhCardsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70F71ACE34AE7158A8AD72F2 /* Pods_MyYugiOhCards_MyYugiOhCardsUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -82,6 +83,7 @@
 		944A031428A40B5F00B15EB2 /* Attribute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Attribute.swift; sourceTree = "<group>"; };
 		944A031628A40B7800B15EB2 /* Datum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Datum.swift; sourceTree = "<group>"; };
 		944A031828A40BAB00B15EB2 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		944A031A28A40D4E00B15EB2 /* YugiListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YugiListController.swift; sourceTree = "<group>"; };
 		9D5EB27949A73114D762D823 /* Pods-MyYugiOhCards-MyYugiOhCardsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyYugiOhCards-MyYugiOhCardsUITests.release.xcconfig"; path = "Target Support Files/Pods-MyYugiOhCards-MyYugiOhCardsUITests/Pods-MyYugiOhCards-MyYugiOhCardsUITests.release.xcconfig"; sourceTree = "<group>"; };
 		A1FBFEAB3EB5B27846756823 /* Pods-MyYugiOhCardsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyYugiOhCardsTests.debug.xcconfig"; path = "Target Support Files/Pods-MyYugiOhCardsTests/Pods-MyYugiOhCardsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		CEA456821F1E0EFAFDD68118 /* Pods_MyYugiOhCards.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyYugiOhCards.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -174,6 +176,7 @@
 		944A02EB28A4085800B15EB2 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				944A031A28A40D4E00B15EB2 /* YugiListController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -487,6 +490,7 @@
 				944A031528A40B5F00B15EB2 /* Attribute.swift in Sources */,
 				944A031728A40B7800B15EB2 /* Datum.swift in Sources */,
 				944A030728A40AB800B15EB2 /* SetRarityCode.swift in Sources */,
+				944A031B28A40D4E00B15EB2 /* YugiListController.swift in Sources */,
 				944A02C028A407A100B15EB2 /* CardsListViewController.swift in Sources */,
 				944A031128A40B3B00B15EB2 /* Ban.swift in Sources */,
 				944A030928A40ADB00B15EB2 /* SetRarity.swift in Sources */,
