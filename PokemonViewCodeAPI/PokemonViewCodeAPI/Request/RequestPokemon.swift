@@ -27,4 +27,19 @@ class RequestPokemon: NSObject {
             }
         }
     }
+    
+    func requestDetail(url: String, completion: @escaping(PokemonDetail?, Bool) -> Void) {
+        AF.request(url, method: .get).responseJSON { response in
+            if response.response?.statusCode == 200 {
+                do {
+                    let pokemonDetail = try JSONDecoder().decode(PokemonDetail.self, from: response.data ?? Data())
+                    completion(pokemonDetail, true)
+                } catch {
+                    completion(nil, false)
+                }
+            } else {
+                completion(nil, false)
+            }
+        }
+    }
 }
