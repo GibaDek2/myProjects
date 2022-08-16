@@ -83,5 +83,11 @@ extension PokemonViewController: UITableViewDataSource, UITableViewDelegate {
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return controller.heightForRowAt
     }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let myDetail = PokemonDetailViewController()
+        myDetail.controller.setSelectedPokemon(result: controller.getResultByIndexPath(indexPath: indexPath))
+        self.navigationController?.pushViewController(myDetail, animated: true)
+    }
 }
 

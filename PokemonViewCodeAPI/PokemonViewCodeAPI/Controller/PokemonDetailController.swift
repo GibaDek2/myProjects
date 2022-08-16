@@ -36,7 +36,7 @@ class PokemonDetailController: NSObject {
         return myDetail?.gameIndices?.count ?? 0
     }
     
-    func setSelectedPokemon(result: Result) {
+    func setSelectedPokemon(result: Result?) {
         self.selectedPokemon = result
     }
     

@@ -47,4 +47,12 @@ class CustomTableViewCellPokemon: UITableViewCell {
     func setupCell(result: Result?) {
         myPokemonLabelName.text = result?.name ?? ""
     }
+    
+    func setupCell(ability: Ability?) {
+        myPokemonLabelName.text = ability?.ability?.name ?? ""
+    }
+    
+    func setupCell(gameIndex: GameIndex?) {
+        myPokemonLabelName.text = gameIndex?.version?.name ?? ""
+    }
 }
