@@ -15,7 +15,7 @@ class PokemonListController: NSObject {
     let myRequest = RequestPokemon()
     var myPokemon: PokemonList?
     
-    var heightForRowAr: CGFloat {
+    var heightForRowAt: CGFloat {
         return 70
     }
     
