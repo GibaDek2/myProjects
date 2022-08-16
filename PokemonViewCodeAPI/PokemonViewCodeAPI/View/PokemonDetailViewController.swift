@@ -36,7 +36,10 @@ class PokemonDetailViewController: UIViewController {
         myAbilitiesLabel.text = "Abilities"
         myAbilitiesLabel.textAlignment = .center
         myAbilitiesLabel.font = .systemFont(ofSize: 15, weight: .bold)
-        myAbilitiesLabel.textColor = .black
+        myAbilitiesLabel.textColor = .white
+        myAbilitiesLabel.clipsToBounds = true
+        myAbilitiesLabel.backgroundColor = .black
+        myAbilitiesLabel.layer.cornerRadius = 15
         return myAbilitiesLabel
     }()
     
@@ -51,7 +54,10 @@ class PokemonDetailViewController: UIViewController {
         myGamesLabel.text = "Games"
         myGamesLabel.textAlignment = .center
         myGamesLabel.font = .systemFont(ofSize: 15, weight: .bold)
-        myGamesLabel.textColor = .black
+        myGamesLabel.textColor = .white
+        myGamesLabel.clipsToBounds = true
+        myGamesLabel.backgroundColor = .black
+        myGamesLabel.layer.cornerRadius = 15
         return myGamesLabel
     }()
     
@@ -63,8 +69,10 @@ class PokemonDetailViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.title = controller.titleOnTop
         addElementsView()
         addElementsConstraints()
+        setupTableView()
         myRequest()
     }
     
@@ -93,35 +101,44 @@ class PokemonDetailViewController: UIViewController {
         }
         
         myAbilitiesLabel.snp.makeConstraints { make in
-            make.top.equalTo(myPokemonDetailLabel.snp.bottom).offset(10)
+            make.top.equalTo(myPokemonDetailLabel.snp.bottom).offset(30)
             make.centerX.equalTo(myPokemonDetailLabel.snp.centerX)
             make.width.equalTo(100)
-            make.height.equalTo(50)
+            make.height.equalTo(20)
         }
         
         myTableViewAbilities.snp.makeConstraints { make in
             make.top.equalTo(myAbilitiesLabel.snp.bottom).offset(5)
             make.centerX.equalTo(myAbilitiesLabel.snp.centerX)
-            make.width.equalTo(100)
+            make.width.equalTo(200)
             make.height.equalTo(100)
         }
         
         myGamesLabel.snp.makeConstraints { make in
-            make.top.equalTo(myTableViewAbilities.snp.bottom).offset(10)
+            make.top.equalTo(myTableViewAbilities.snp.bottom).offset(30)
             make.centerX.equalTo(myTableViewAbilities.snp.centerX)
             make.width.equalTo(100)
-            make.height.equalTo(50)
+            make.height.equalTo(20)
         }
         
         myTableViewGames.snp.makeConstraints { make in
             make.top.equalTo(myGamesLabel.snp.bottom).offset(5)
             make.centerX.equalTo(myGamesLabel.snp.centerX)
-            make.width.equalTo(100)
-            make.height.equalTo(100)
+            make.width.equalTo(200)
+            make.height.equalTo(330)
         }
     }
     
+    func setupTableView() {
+        self.myTableViewAbilities.delegate = self
+        self.myTableViewGames.delegate = self
+        self.myTableViewAbilities.dataSource = self
+        self.myTableViewGames.dataSource = self
+    }
+    
     func setupCell() {
+        self.myTableViewAbilities.reloadData()
+        self.myTableViewGames.reloadData()
         myPokemonDetailImage.sd_setImage(with: controller.pokemonImageUrl, completed: nil)
         myPokemonDetailLabel.text = controller.pokemonName
     }
@@ -141,5 +158,32 @@ class PokemonDetailViewController: UIViewController {
                 self?.showAlert()
             }
         }
+    }
+}
+
+extension PokemonDetailViewController: UITableViewDataSource, UITableViewDelegate {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        if tableView == myTableViewAbilities {
+            return controller.numberOfRowAbilities
+        } else {
+            return controller.numberOfRowGames
+        }
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        if tableView == myTableViewAbilities {
+            if let cell = tableView.dequeueReusableCell(withIdentifier: CustomTableViewCellPokemon.myIdentifierCell, for: indexPath) as? CustomTableViewCellPokemon {
+                cell.setupCell(ability: controller.getAbilitiesByIndex(indexPath: indexPath))
+                return cell
+            }
+        } else {
+            if tableView == myTableViewGames {
+                if let cell = tableView.dequeueReusableCell(withIdentifier: CustomTableViewCellPokemon.myIdentifierCell, for: indexPath) as? CustomTableViewCellPokemon {
+                    cell.setupCell(gameIndex: controller.getGamesByIndex(indexPath: indexPath))
+                    return cell
+                }
+            }
+        }
+        return UITableViewCell()
     }
 }
