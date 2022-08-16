@@ -16,7 +16,7 @@ class CustomCellCardsTableViewCell: UITableViewCell {
         let myLabelCell = UILabel(frame: .zero)
         myLabelCell.textAlignment = .center
         myLabelCell.textColor = .white
-        myLabelCell.font = .systemFont(ofSize: 25, weight: .heavy)
+        myLabelCell.font = .systemFont(ofSize: 18, weight: .bold)
         myLabelCell.clipsToBounds = true
         myLabelCell.backgroundColor = .black
         myLabelCell.layer.cornerRadius = 15
@@ -52,7 +52,7 @@ class CustomCellCardsTableViewCell: UITableViewCell {
         myLabelCell.snp.makeConstraints { make in
             make.top.equalTo(myImageCell.snp.bottom).offset(10)
             make.centerX.equalTo(myImageCell.snp.centerX)
-            make.width.equalTo(390)
+            make.width.equalTo(290)
             make.height.equalTo(30)
         }
     }
