@@ -1,0 +1,6 @@
+framework module Pods_PokemonViewCodeAPITests {
+  umbrella header "Pods-PokemonViewCodeAPITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
