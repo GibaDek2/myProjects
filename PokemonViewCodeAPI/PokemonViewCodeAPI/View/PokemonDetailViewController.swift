@@ -38,7 +38,7 @@ class PokemonDetailViewController: UIViewController {
         myAbilitiesLabel.font = .systemFont(ofSize: 15, weight: .bold)
         myAbilitiesLabel.textColor = .white
         myAbilitiesLabel.clipsToBounds = true
-        myAbilitiesLabel.backgroundColor = .black
+        myAbilitiesLabel.backgroundColor = .darkGray
         myAbilitiesLabel.layer.cornerRadius = 15
         return myAbilitiesLabel
     }()
@@ -56,7 +56,7 @@ class PokemonDetailViewController: UIViewController {
         myGamesLabel.font = .systemFont(ofSize: 15, weight: .bold)
         myGamesLabel.textColor = .white
         myGamesLabel.clipsToBounds = true
-        myGamesLabel.backgroundColor = .black
+        myGamesLabel.backgroundColor = .darkGray
         myGamesLabel.layer.cornerRadius = 15
         return myGamesLabel
     }()
@@ -66,7 +66,7 @@ class PokemonDetailViewController: UIViewController {
         myTableViewGames.register(CustomTableViewCellPokemon.self, forCellReuseIdentifier: CustomTableViewCellPokemon.myIdentifierCell)
         return myTableViewGames
     }()
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = controller.titleOnTop
