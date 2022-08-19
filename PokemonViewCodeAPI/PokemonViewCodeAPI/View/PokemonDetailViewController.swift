@@ -145,7 +145,9 @@ class PokemonDetailViewController: UIViewController {
     
     func showAlert() {
         let alert = UIAlertController(title: controller.showAlert, message: controller.showMessage, preferredStyle: .alert)
-        let button = UIAlertAction(title: controller.showButton, style: .destructive, handler: nil)
+        let button = UIAlertAction(title: controller.showButton, style: .destructive) { button in
+            self.dismiss(animated: true)
+        }
         alert.addAction(button)
         self.present(alert, animated: true, completion: nil)
     }
