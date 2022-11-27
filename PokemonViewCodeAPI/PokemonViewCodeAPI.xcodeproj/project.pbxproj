@@ -67,6 +67,48 @@
 			remoteGlobalIDString = 9445820928ABDC7C0055624D;
 			remoteInfo = PokemonViewCodeAPI;
 		};
+		944DCF36290C305100555876 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 944DCF2D290C305100555876 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5D797E9A5C5782CE845840781FA1CC81;
+			remoteInfo = Alamofire;
+		};
+		944DCF38290C305100555876 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 944DCF2D290C305100555876 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 03E4DE183E0E753EB330BCA1B4D530F4;
+			remoteInfo = "Pods-PokemonViewCodeAPI";
+		};
+		944DCF3A290C305100555876 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 944DCF2D290C305100555876 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 028C2708760B0C3933289E31A43E58BE;
+			remoteInfo = "Pods-PokemonViewCodeAPI-PokemonViewCodeAPIUITests";
+		};
+		944DCF3C290C305100555876 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 944DCF2D290C305100555876 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EE373767ED8C839FDA477A11C2EBFFC2;
+			remoteInfo = "Pods-PokemonViewCodeAPITests";
+		};
+		944DCF3E290C305100555876 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 944DCF2D290C305100555876 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B0B214D775196BA7CA8E17E53048A493;
+			remoteInfo = SDWebImage;
+		};
+		944DCF40290C305100555876 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 944DCF2D290C305100555876 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 979486118B3E90C08386079D57962701;
+			remoteInfo = SnapKit;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -121,6 +163,7 @@
 		9445827828ABE2990055624D /* TypeElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeElement.swift; sourceTree = "<group>"; };
 		9445827A28ABE3720055624D /* PokemonListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonListController.swift; sourceTree = "<group>"; };
 		9445827D28ABE4D40055624D /* CustomTableViewCellPokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCellPokemon.swift; sourceTree = "<group>"; };
+		944DCF2D290C305100555876 /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Pods.xcodeproj; path = ../Pods/Pods.xcodeproj; sourceTree = "<group>"; };
 		AA84401DA51D20D8FC2A7A89 /* Pods_PokemonViewCodeAPI_PokemonViewCodeAPIUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PokemonViewCodeAPI_PokemonViewCodeAPIUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBEB8C836D3DF77E774E6813 /* Pods-PokemonViewCodeAPI-PokemonViewCodeAPIUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PokemonViewCodeAPI-PokemonViewCodeAPIUITests.release.xcconfig"; path = "Target Support Files/Pods-PokemonViewCodeAPI-PokemonViewCodeAPIUITests/Pods-PokemonViewCodeAPI-PokemonViewCodeAPIUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -180,7 +223,6 @@
 			children = (
 				9445824128ABDD410055624D /* Request */,
 				9445824028ABDD3E0055624D /* Resources */,
-				9445823F28ABDD3C0055624D /* Model */,
 				9445823E28ABDD380055624D /* View */,
 				9445823D28ABDD360055624D /* Controller */,
 				9445820D28ABDC7C0055624D /* AppDelegate.swift */,
@@ -193,6 +235,7 @@
 		9445822328ABDC7D0055624D /* PokemonViewCodeAPITests */ = {
 			isa = PBXGroup;
 			children = (
+				944DCF2D290C305100555876 /* Pods.xcodeproj */,
 				9445822428ABDC7D0055624D /* PokemonViewCodeAPITests.swift */,
 			);
 			path = PokemonViewCodeAPITests;
@@ -273,6 +316,7 @@
 			isa = PBXGroup;
 			children = (
 				9445824628ABDE890055624D /* RequestPokemon.swift */,
+				9445823F28ABDD3C0055624D /* Model */,
 			);
 			path = Request;
 			sourceTree = "<group>";
@@ -283,6 +327,19 @@
 				9445827D28ABE4D40055624D /* CustomTableViewCellPokemon.swift */,
 			);
 			path = Cell;
+			sourceTree = "<group>";
+		};
+		944DCF2E290C305100555876 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				944DCF37290C305100555876 /* Alamofire */,
+				944DCF39290C305100555876 /* Pods-PokemonViewCodeAPI */,
+				944DCF3B290C305100555876 /* Pods-PokemonViewCodeAPI-PokemonViewCodeAPIUITests */,
+				944DCF3D290C305100555876 /* Pods-PokemonViewCodeAPITests */,
+				944DCF3F290C305100555876 /* SDWebImage */,
+				944DCF41290C305100555876 /* SnapKit */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		9B1E7BC66EEA72DCA0064687 /* Pods */ = {
@@ -403,6 +460,12 @@
 			mainGroup = 9445820128ABDC7C0055624D;
 			productRefGroup = 9445820B28ABDC7C0055624D /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 944DCF2E290C305100555876 /* Products */;
+					ProjectRef = 944DCF2D290C305100555876 /* Pods.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				9445820928ABDC7C0055624D /* PokemonViewCodeAPI */,
@@ -411,6 +474,57 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		944DCF37290C305100555876 /* Alamofire */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			name = Alamofire;
+			path = Alamofire.framework;
+			remoteRef = 944DCF36290C305100555876 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		944DCF39290C305100555876 /* Pods-PokemonViewCodeAPI */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			name = "Pods-PokemonViewCodeAPI";
+			path = Pods_PokemonViewCodeAPI.framework;
+			remoteRef = 944DCF38290C305100555876 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		944DCF3B290C305100555876 /* Pods-PokemonViewCodeAPI-PokemonViewCodeAPIUITests */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			name = "Pods-PokemonViewCodeAPI-PokemonViewCodeAPIUITests";
+			path = Pods_PokemonViewCodeAPI_PokemonViewCodeAPIUITests.framework;
+			remoteRef = 944DCF3A290C305100555876 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		944DCF3D290C305100555876 /* Pods-PokemonViewCodeAPITests */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			name = "Pods-PokemonViewCodeAPITests";
+			path = Pods_PokemonViewCodeAPITests.framework;
+			remoteRef = 944DCF3C290C305100555876 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		944DCF3F290C305100555876 /* SDWebImage */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			name = SDWebImage;
+			path = SDWebImage.framework;
+			remoteRef = 944DCF3E290C305100555876 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		944DCF41290C305100555876 /* SnapKit */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			name = SnapKit;
+			path = SnapKit.framework;
+			remoteRef = 944DCF40290C305100555876 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		9445820828ABDC7C0055624D /* Resources */ = {
